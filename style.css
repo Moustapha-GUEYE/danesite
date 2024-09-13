@@ -1,0 +1,77 @@
+:root{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #343432;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    width: 300px;
+    height: 500px;
+    background-color: #ffffffe5;
+    border-radius: 1cm;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    font-family: monospace;
+    font-size: 18px;
+    text-align: center;
+}
+#profile{
+    content: url(images/netProfile.png);
+    width: 150px;
+    height: 150px;
+}
+#presentation{
+    font-weight: bold;
+    margin: 50px 0 30px 0;
+}
+#instagram, #tiktok{
+    position: relative;
+    margin: 10px;
+    background-color: #343432;
+    width: 170px;
+    padding: 10px;
+    border-radius: 0.5cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.icon{
+    float: left;
+    position: absolute;
+    left: 0;
+    margin-left: 10px;
+}
+#instaIcon{
+    content: url(images/instagram.png);
+    width: 20px;
+}
+#tikIcon{
+    content: url(images/tiktok.png);
+    width: 20px;
+}
+#tel{
+    font-size: 40px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #fcb91b;
+}
+#email{
+    font-size: 12px;
+    font-weight: bold;
+}
